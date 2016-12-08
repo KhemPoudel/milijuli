@@ -1,0 +1,65 @@
+.customer-view-top-header-options{
+    background-color: #f5f5f5;
+    padding-bottom: 0;
+}
+table tr th, table tr td, .btn-label-style{
+    font-family: FontAwesome;
+    font-size: medium;
+    -webkit-box-sizing: 100px;
+    color: #555555;
+}
+.received-amount-input
+{
+    width: 33%;
+}
+.received-amount-label
+{
+    float: left;
+}
+.left-bordered{
+    border-left:2px inset #000000;
+
+}
+.bottom-bordered{
+    border-bottom: 2px inset #000000;
+}
+.right-bordered{
+    border-right: 2px inset #000000;
+}
+.top-bordered{
+    border-top: 2px inset #000000;
+}
+#tbl-transaction tr td:hover{
+    background-color: #dddddd;
+}
+.stmts tr td:hover{
+    background-color: #dddddd;
+}
+#calculator{
+    display: inline-table;
+    width:100%;
+}
+.input-party{
+    display: inline-table;
+    width: 40%;
+    padding: 0.5%;
+}
+.output-party{
+    display: inline-table;
+    width: 40%;
+    float: right;
+}
+.calc-form label
+{
+    width: 45%;
+    float: left;
+    margin: 0px;
+    font-size: large;
+}
+.calc-form input
+{
+    width: 50%;
+    float: right;
+    font-size: large;
+
+}
